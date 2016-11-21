@@ -11,6 +11,10 @@ class Rectangle
     @length
   end
 
+  define_method(:width) do
+    @width
+  end
+  
   define_method(:square?) do
     @length.eql?(@width)
   end
